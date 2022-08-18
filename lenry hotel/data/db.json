@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Royal Suite",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, nesciunt necessitatibus. Quibusdam quas sed eius excepturi sequi cum hic asperiores cumque. Numquam corrupti, labore voluptatum rem quae quia? Molestiae, asperiores?",
+      "author": "N10,000",
+      "id": 1
+    },
+    {
+      "title": "Deluxe Suite",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, nesciunt necessitatibus. Quibusdam quas sed eius excepturi sequi cum hic asperiores cumque. Numquam corrupti, labore voluptatum rem quae quia? Molestiae, asperiores?",
+      "author": "N8000",
+      "id": 2
+    },
+    {
+      "title": "Single Room",
+      "body": "Any advice would be very welcome",
+      "author": "N4000",
+      "id": 4
+    },
+    {
+      "title": "Single Room",
+      "body": "Cheaply Affordable",
+      "author": "4000",
+      "id": 5
+    }
+  ]
+}

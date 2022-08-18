@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  background-color: #333;
+  padding: 20px;
+  padding-left: 0;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.navbar h1{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.navbar h1:hover{
+  color: #5f0000;
+}
+.navbar .links{
+  display: flex;
+  margin-left: auto;
+}
+.navbar a{
+  color: #fff;
+  font-size: 0.9rem;
+  margin-left: 16px;
+  padding: 6px;
+}
+a.logo{
+  margin-left: 0;
+}
+.navbar a:hover{
+  color: #5f0000;
+}
+.content{
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 700px;
+}
+
+/* blog preview / list */
+.blog-preview{
+  margin: 20px 0;
+  padding: 10px 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.blog-preview:hover{
+  box-shadow: 3px 5px 7px rgba(0,0,0,0.3);
+}
+.blog-preview h2{
+  font-size: 25px;
+  color: #5f0000;
+  margin-bottom: 8px;
+}
+
+/* blog details page*/
+.blog-details h2{
+  color: #5f0000;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: #5f0000;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details img{
+  max-width: 400px;
+}
+
+/* create new blog form*/
+.create{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 25px;
+  color: #5f0000;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: #5f0000;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* NotFound page */
+.not-found{
+  text-align: center;
+}
+.not-found h2{
+  font-size: 25px;
+  color: #5f0000;
+  margin-bottom: 16px;
+}
+.not-found a{
+  color: #5f0000;
+}
+
+/* About page */
+.about{
+  max-width: 700px;
+  font-size: 20px;
+  margin: 0 auto;
+  word-spacing: 0.4rem;
+  line-height: 1.4rem;
+}
+.about h2{
+  text-align: center;
+  font-size: 25px;
+  color: #5f0000;
+  margin-bottom: 16px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.about img{
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+.about span{
+  color: #5f0000;
+}
+
+/* booking page*/
+.book{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.book label{
+  text-align: left;
+  display: block;
+}
+.book h2{
+  font-size: 25px;
+  color: #5f0000;
+  margin-bottom: 30px;
+}
+.book input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.book button{
+  background: #5f0000;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
